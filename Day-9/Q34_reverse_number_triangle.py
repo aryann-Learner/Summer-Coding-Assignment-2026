@@ -1,0 +1,4 @@
+# Q34 - Print reverse number triangle 12345 1234...
+n = int(input("Enter rows: "))
+for i in range(n, 0, -1):
+    print(''.join(str(j) for j in range(1, i + 1)))
